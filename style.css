@@ -316,7 +316,7 @@ span{
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 1rem;
-    color: white;
+    color: black;
 }
 
 .projects-box:hover h3 {
@@ -326,7 +326,7 @@ span{
 .projects-box p {
     font-size: 1.2rem;
     line-height: 1.6;
-    color: white;
+    color: black;
 }
 
 .projects-box:hover p {
