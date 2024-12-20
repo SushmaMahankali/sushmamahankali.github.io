@@ -247,7 +247,7 @@ span{
     justify-content: center;
     align-items: right;
     flex-direction: column;
-    text-align: center;
+    text-align: right;
     font-size: 20px;
     font-weight: bold;
     line-height: 40px;
@@ -263,22 +263,7 @@ span{
     background-color: var(--bg-color);
     width: 15px;
 }
-.experience{
-    background-color: var(--bg-color);
-    color: white;
-    padding: 10px;
-    margin-bottom: 0;
-}
-.experience h2{
-    margin-bottom: 0px;
-}
-.experience-container{
-    display: flex;
-    align-items: center;
-    font-size: 16px;
-    font-weight: bold;
-    padding: 10px;
-}
+
 .projects{
     background-color: var(--bg-color);
     color: black;
