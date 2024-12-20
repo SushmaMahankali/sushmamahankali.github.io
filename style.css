@@ -245,7 +245,7 @@ span{
 .timeline-content {
     display: flex;
     justify-content: center;
-    align-items: right;
+    align-items: left;
     flex-direction: column;
     text-align: left;
     font-size: 20px;
