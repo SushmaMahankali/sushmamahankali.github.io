@@ -263,6 +263,65 @@ span{
     background-color: var(--bg-color);
     width: 15px;
 }
+.experience{
+    background-color: var(--bg-color);
+    color: black;
+    padding: 10px;
+    margin-top: 0;
+}
+.experience h2{
+    margin-bottom: 5rem;
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 10px;
+}
+.experience-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+.experience-box{
+    background-color: var(--main-color);
+    border-radius: 1.5rem;
+    border: 5px solid transparent;
+    cursor: pointer;
+    padding: 2rem;
+    transition: transform 0.3s ease-in-out, background 0.3s ease-in-out;
+}
+.experience-box:hover{
+    background: white;
+    color: black;
+    border: 5px solid var(--main-color);
+    transform: scale(1.03);
+}
+
+.experience-box h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: black;
+}
+
+.experience-box:hover h3 {
+    color: var(--main-color);
+}
+
+.experience-box p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: black;
+}
+
+.experience-box:hover p {
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .experience-container {
+        grid-template-columns: 1fr;
+    }
+}
 
 .projects{
     background-color: var(--bg-color);
